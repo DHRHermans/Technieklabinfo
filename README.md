@@ -1,4 +1,4 @@
-# SH MetaalLab
+# SH MetaalLab v1.1
 
 Een Nederlandstalig, mobielvriendelijk technisch naslagwerk met 71 technische basisfiches in zes vakgebieden en 19 interactieve calculators. Ontworpen voor GitHub Pages, iPhone, tablet en laptop.
 
@@ -37,3 +37,24 @@ Open via een lokale webserver, bijvoorbeeld `python -m http.server 8000`, en ga 
 ## Rechten
 
 De code en eigen toelichtingen zijn gemaakt voor dit project. Bij toekomstige toevoegingen van externe teksten, illustraties of tabellen: controleer de rechten en vermeld de vereiste bron en licentie. Niet impliceren dat SH MetaalLab een officiële normpublicatie is.
+
+## Nieuw in v1.1 — aanhaalmomenten
+
+Een zelfstandige module **Aanhaalmomenten** voor metrische ISO-bouten M3–M36 met instelbare spoed, sterkteklasse 4.6 / 5.8 / 8.8 / 10.9 / 12.9, vereenvoudigde wrijvingsfactor en percentage proefbelasting. De uitkomst is **indicatief** en geen montagevoorschrift. Boutsterkte is niet hetzelfde als draagkracht van het basismateriaal. RVS en veiligheidskritische verbindingen vereisen afzonderlijke fabrikantspecificaties en verificatie.
+
+## v1.2 – Schroefdraad en boutverbindingen
+- Metrisch grof/fijn; UNC, UNF, UNEF; BSW, BSF; BSPP, BSPT, NPT als herkennings-/referentietabellen.
+- Boutmateriaal, sterkteklasse, ondergrond en verbindingstype.
+- Theoretisch aanhaalmoment uitsluitend voor geselecteerde 60°-draad met stalen bout en passende stalen moer en expliciet gekozen illustratieve K-factor. **Geen montagevoorschrift.**
+- Voor RVS, non-ferro, getapte gaten, Whitworth en pijpdraad wordt geen Nm-waarde uitgegeven zonder aanvullende specificaties.
+- De nominale inch-aanduiding bij BSP/NPT is geen werkelijke buitendiameter.
+- Normverwijzingen: ISO 261, ISO 724, ISO 898-1, ISO 3506-1, ASME B1.1, BS 84, ISO 228-1, ISO 7-1, ASME B1.20.1 en VDI 2230.
+
+Let op: de overzichten zijn een **selectie van veelgebruikte maten**, geen complete normtabellen. Controleer actuele normuitgaven en fabrikantspecificaties.
+
+
+## v1.3 – Snijsnelheden voor boren, draaien en frezen
+
+Nieuwe module met 15 materiaalcategorieën, HSS/HSS-Co/HSS-TiN, hardmetaal/Widia/VHM, wisselplaten en informatie over keramiek, CBN en PCD. Snijsnelheden zijn brede **illustratieve startbereiken** en geen gevalideerde aanbevelingen per gereedschap. Voor keramiek, CBN en PCD zijn geen automatische standaardwaarden; voer uitsluitend door de fabrikant opgegeven vc in. Berekent n = 1000 vc/(π D), bij frezen vf = fz × z × n en bij boren/draaien vf = f × n. Met optionele maximale spiltoerentalbegrenzing. Controleer machine, materiaalhardheid, gereedschapgeometrie, koelmiddel en opspanning.
+
+Bronnen: Sandvik Coromant (formules), CIMCO CNC Book (oriëntatietabellen), LittleMachineShop en CGTK. Dit is geen volledige fabrikantendatabase en geen vervanging voor gereedschapscatalogi.
