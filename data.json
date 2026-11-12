@@ -1,0 +1,533 @@
+{
+  "categories": [
+    {
+      "id": "theorie",
+      "name": "Theoretische handleiding",
+      "symbol": "∑"
+    },
+    {
+      "id": "tekenen",
+      "name": "Technisch tekenen",
+      "symbol": "⌖"
+    },
+    {
+      "id": "materialen",
+      "name": "Materialen en materiaalonderzoek",
+      "symbol": "◈"
+    },
+    {
+      "id": "elementen",
+      "name": "Machine-elementen",
+      "symbol": "⚙"
+    },
+    {
+      "id": "constructie",
+      "name": "Constructietechniek",
+      "symbol": "▤"
+    },
+    {
+      "id": "sturing",
+      "name": "Stuur- en regeltechniek",
+      "symbol": "⌁"
+    }
+  ],
+  "entries": [
+    {
+      "id": "theorie-1",
+      "category": "theorie",
+      "title": "SI-basiseenheden",
+      "summary": "meter (m), kilogram (kg), seconde (s), ampère (A), kelvin (K), mol (mol) en candela (cd).",
+      "tag": "SI; eenheden"
+    },
+    {
+      "id": "theorie-2",
+      "category": "theorie",
+      "title": "Voorvoegsels",
+      "summary": "kilo = 10³; mega = 10⁶; milli = 10⁻³; micro = 10⁻⁶. Controleer steeds de eenheden vóór het rekenen.",
+      "tag": "eenheden"
+    },
+    {
+      "id": "theorie-3",
+      "category": "theorie",
+      "title": "Goniometrie",
+      "summary": "In een rechthoekige driehoek: sin α = overstaande/schuine; cos α = aanliggende/schuine; tan α = overstaande/aanliggende.",
+      "tag": "wiskunde"
+    },
+    {
+      "id": "theorie-4",
+      "category": "theorie",
+      "title": "Pythagoras",
+      "summary": "Bij een rechthoekige driehoek geldt a² + b² = c², waarbij c de schuine zijde is.",
+      "tag": "wiskunde"
+    },
+    {
+      "id": "theorie-5",
+      "category": "theorie",
+      "title": "Oppervlakte en inhoud",
+      "summary": "Rechthoek A = l·b; cirkel A = πr²; cilinder V = πr²h. Werk in consistente eenheden.",
+      "tag": "meetkunde"
+    },
+    {
+      "id": "theorie-6",
+      "category": "theorie",
+      "title": "Snelheid en toerental",
+      "summary": "v = s/t; omtreksnelheid v = πDn (D in m, n in omw/s).",
+      "tag": "mechanica"
+    },
+    {
+      "id": "theorie-7",
+      "category": "theorie",
+      "title": "Kracht en momenten",
+      "summary": "F = m·a; moment M = F·l voor een loodrechte kracht op arm l.",
+      "tag": "mechanica"
+    },
+    {
+      "id": "theorie-8",
+      "category": "theorie",
+      "title": "Arbeid, energie en vermogen",
+      "summary": "W = F·s bij constante kracht in bewegingsrichting; P = W/t. Voor roterende assen P = M·ω.",
+      "tag": "mechanica"
+    },
+    {
+      "id": "theorie-9",
+      "category": "theorie",
+      "title": "Rendement",
+      "summary": "η = nuttig afgegeven vermogen / opgenomen vermogen. Gebruik 0–1 of vermenigvuldig met 100 voor %.",
+      "tag": "mechanica"
+    },
+    {
+      "id": "theorie-10",
+      "category": "theorie",
+      "title": "Druk en debiet",
+      "summary": "p = F/A; volumestroom Q = V/t = A·v. 1 bar = 100 000 Pa.",
+      "tag": "fluïdumtechniek"
+    },
+    {
+      "id": "theorie-11",
+      "category": "theorie",
+      "title": "Wet van Ohm",
+      "summary": "U = I·R; P = U·I. Geldig voor ohmse weerstand in de toepasselijke omstandigheden.",
+      "tag": "elektrotechniek"
+    },
+    {
+      "id": "theorie-12",
+      "category": "theorie",
+      "title": "Serie- en parallelschakeling",
+      "summary": "Serie: Rtot = ΣR; parallel: 1/Rtot = Σ(1/R). In serie is de stroom gelijk; parallel is de spanning gelijk.",
+      "tag": "elektrotechniek"
+    },
+    {
+      "id": "theorie-13",
+      "category": "theorie",
+      "title": "Draaistroom",
+      "summary": "Bij symmetrische driefasenbelasting: P = √3·Ulijn·Ilijn·cos φ.",
+      "tag": "elektrotechniek"
+    },
+    {
+      "id": "theorie-14",
+      "category": "theorie",
+      "title": "Warmte en temperatuur",
+      "summary": "Q = m·c·ΔT bij benadering met constante soortelijke warmte. Kelvin = °C + 273,15.",
+      "tag": "warmteleer"
+    },
+    {
+      "id": "theorie-15",
+      "category": "theorie",
+      "title": "Trek- en drukspanning",
+      "summary": "Nominale spanning σ = F/A. Toelaatbaarheid hangt af van materiaal, belasting, veiligheid en norm.",
+      "tag": "sterkteleer"
+    },
+    {
+      "id": "theorie-16",
+      "category": "theorie",
+      "title": "Buigspanning",
+      "summary": "Bij eenvoudige lineair-elastische buiging: σ = M/W, met W het weerstandsmoment van de doorsnede.",
+      "tag": "sterkteleer"
+    },
+    {
+      "id": "tekenen-17",
+      "category": "tekenen",
+      "title": "Aanzichten en projecties",
+      "summary": "Leg voor-, boven- en zijaanzicht eenduidig vast volgens de gekozen projectiemethode.",
+      "tag": "tekenen"
+    },
+    {
+      "id": "tekenen-18",
+      "category": "tekenen",
+      "title": "Maatvoering",
+      "summary": "Maten moeten leesbaar, niet dubbelzinnig en functioneel aangebracht zijn; eenheden en toleranties vermelden.",
+      "tag": "tekenen"
+    },
+    {
+      "id": "tekenen-19",
+      "category": "tekenen",
+      "title": "Schaal",
+      "summary": "Schaal 1:2 betekent dat de tekening half zo groot is als het werkstuk; maatcijfers geven de werkelijke maat aan.",
+      "tag": "tekenen"
+    },
+    {
+      "id": "tekenen-20",
+      "category": "tekenen",
+      "title": "Doorsneden en arcering",
+      "summary": "Doorsneden tonen verborgen binnenvormen; arcering maakt het gesneden materiaal zichtbaar.",
+      "tag": "tekenen"
+    },
+    {
+      "id": "tekenen-21",
+      "category": "tekenen",
+      "title": "Maattoleranties",
+      "summary": "Een nominale maat met boven- en onderafwijking bepaalt de grensmaten.",
+      "tag": "toleranties"
+    },
+    {
+      "id": "tekenen-22",
+      "category": "tekenen",
+      "title": "Passingen",
+      "summary": "Speling- en klempassingen ontstaan door de combinatie van tolerantiezones van gat en as.",
+      "tag": "toleranties"
+    },
+    {
+      "id": "tekenen-23",
+      "category": "tekenen",
+      "title": "Vorm- en plaatstoleranties",
+      "summary": "Geometrische toleranties begrenzen bijvoorbeeld vlakheid, haaksheid, evenwijdigheid en positie.",
+      "tag": "toleranties"
+    },
+    {
+      "id": "tekenen-24",
+      "category": "tekenen",
+      "title": "Oppervlakteruwheid",
+      "summary": "Ra is de rekenkundig gemiddelde profielafwijking; kies een eis passend bij de functie.",
+      "tag": "oppervlak"
+    },
+    {
+      "id": "tekenen-25",
+      "category": "tekenen",
+      "title": "Lassymbolen",
+      "summary": "Lasaanduidingen beschrijven onder meer lasvorm, positie en afmetingen. Raadpleeg de actuele toepasselijke norm.",
+      "tag": "lassen"
+    },
+    {
+      "id": "tekenen-26",
+      "category": "tekenen",
+      "title": "Schroefdraad op tekeningen",
+      "summary": "Een aanduiding zoals M12×1,75 vermeldt nominale diameter en spoed in millimeter.",
+      "tag": "schroefdraad"
+    },
+    {
+      "id": "materialen-27",
+      "category": "materialen",
+      "title": "Dichtheid en massa",
+      "summary": "Massa m = ρ·V. Richtwaarden bij kamertemperatuur: staal ca. 7850 kg/m³, aluminium ca. 2700 kg/m³.",
+      "tag": "eigenschappen"
+    },
+    {
+      "id": "materialen-28",
+      "category": "materialen",
+      "title": "Staalsoorten",
+      "summary": "Staalkeuze hangt onder meer af van sterkte, lasbaarheid, taaiheid en corrosieomgeving.",
+      "tag": "staal"
+    },
+    {
+      "id": "materialen-29",
+      "category": "materialen",
+      "title": "Koolstof en staal",
+      "summary": "Koolstofgehalte beïnvloedt hardbaarheid, sterkte en lasbaarheid; exacte eigenschappen hangen ook van verwerking af.",
+      "tag": "staal"
+    },
+    {
+      "id": "materialen-30",
+      "category": "materialen",
+      "title": "Gietijzer",
+      "summary": "Gietijzer bevat relatief veel koolstof; verschillende grafietvormen geven uiteenlopende eigenschappen.",
+      "tag": "gieten"
+    },
+    {
+      "id": "materialen-31",
+      "category": "materialen",
+      "title": "Aluminiumlegeringen",
+      "summary": "Aluminium is licht en vormt een oxidelaag; sterkte en corrosiegedrag verschillen per legering.",
+      "tag": "non-ferro"
+    },
+    {
+      "id": "materialen-32",
+      "category": "materialen",
+      "title": "Koper en messing",
+      "summary": "Koper geleidt warmte en elektriciteit goed; messing is een koper-zinklegering.",
+      "tag": "non-ferro"
+    },
+    {
+      "id": "materialen-33",
+      "category": "materialen",
+      "title": "Warmtebehandeling",
+      "summary": "Gloeien, harden en ontlaten veranderen de microstructuur en eigenschappen van geschikte legeringen.",
+      "tag": "warmtebehandeling"
+    },
+    {
+      "id": "materialen-34",
+      "category": "materialen",
+      "title": "Hardheidsmetingen",
+      "summary": "Brinell, Vickers en Rockwell gebruiken verschillende meetprincipes en schalen.",
+      "tag": "onderzoek"
+    },
+    {
+      "id": "materialen-35",
+      "category": "materialen",
+      "title": "Corrosie",
+      "summary": "Corrosie is aantasting door reactie met de omgeving; materiaalkeuze, coating en ontwerp beïnvloeden het risico.",
+      "tag": "corrosie"
+    },
+    {
+      "id": "materialen-36",
+      "category": "materialen",
+      "title": "Smeermiddelen",
+      "summary": "Viscositeit, temperatuur, belasting en compatibiliteit bepalen de smeermiddelkeuze.",
+      "tag": "onderhoud"
+    },
+    {
+      "id": "materialen-37",
+      "category": "materialen",
+      "title": "Kunststoffen",
+      "summary": "Thermoplasten zijn doorgaans opnieuw vervormbaar door verwarmen; thermoharders niet op dezelfde wijze.",
+      "tag": "kunststoffen"
+    },
+    {
+      "id": "elementen-38",
+      "category": "elementen",
+      "title": "Metrische ISO-schroefdraad",
+      "summary": "M geeft metrische draad aan. Een grove M10-draad heeft bijvoorbeeld nominale spoed 1,5 mm.",
+      "tag": "schroefdraad"
+    },
+    {
+      "id": "elementen-39",
+      "category": "elementen",
+      "title": "Kerngat voor snijtap",
+      "summary": "Een vaak gebruikte vuistregel voor metrische draad is boordiameter ≈ nominale diameter − spoed; controleer tabel en toepassing.",
+      "tag": "schroefdraad"
+    },
+    {
+      "id": "elementen-40",
+      "category": "elementen",
+      "title": "Bouten en sterkteklassen",
+      "summary": "Sterkteklassen zoals 8.8 geven mechanische eigenschappen aan; juiste voorspanning vergt meer dan alleen een sterkteklasse.",
+      "tag": "verbindingen"
+    },
+    {
+      "id": "elementen-41",
+      "category": "elementen",
+      "title": "Moeren en sluitringen",
+      "summary": "Kies passende draad, sterkteklasse, contactoppervlak en borging voor de verbinding.",
+      "tag": "verbindingen"
+    },
+    {
+      "id": "elementen-42",
+      "category": "elementen",
+      "title": "Spieën en assen",
+      "summary": "Spieën kunnen koppel tussen as en naaf overdragen; controleer vlakdruk en afschuiving.",
+      "tag": "assen"
+    },
+    {
+      "id": "elementen-43",
+      "category": "elementen",
+      "title": "Wentellagers",
+      "summary": "Lagerkeuze hangt af van radiale/axiale belasting, toerental, levensduur en smering.",
+      "tag": "lagers"
+    },
+    {
+      "id": "elementen-44",
+      "category": "elementen",
+      "title": "Glijlagers",
+      "summary": "Glijlagers werken met glijcontact; smeringsregime en warmteafvoer zijn belangrijk.",
+      "tag": "lagers"
+    },
+    {
+      "id": "elementen-45",
+      "category": "elementen",
+      "title": "O-ringen en afdichtingen",
+      "summary": "Materiaal, groefmaat, compressie, medium en temperatuur bepalen de afdichtingskeuze.",
+      "tag": "afdichtingen"
+    },
+    {
+      "id": "elementen-46",
+      "category": "elementen",
+      "title": "Tandwielen",
+      "summary": "Voor twee uitwendig vertande wielen is de overbrengingsverhouding in grootte i = z₂/z₁.",
+      "tag": "overbrengingen"
+    },
+    {
+      "id": "elementen-47",
+      "category": "elementen",
+      "title": "Riemaandrijvingen",
+      "summary": "Riemoverbrengingen kunnen slip vertonen; span- en uitlijncondities beïnvloeden het rendement.",
+      "tag": "overbrengingen"
+    },
+    {
+      "id": "elementen-48",
+      "category": "elementen",
+      "title": "Veren",
+      "summary": "Bij een ideale lineaire veer geldt F = k·x binnen het elastische werkgebied.",
+      "tag": "veren"
+    },
+    {
+      "id": "constructie-49",
+      "category": "constructie",
+      "title": "Snijsnelheid en toerental",
+      "summary": "n = 1000·vc/(π·D) bij vc in m/min en D in mm.",
+      "tag": "verspanen"
+    },
+    {
+      "id": "constructie-50",
+      "category": "constructie",
+      "title": "Voeding bij boren",
+      "summary": "Benaderde axiale voeding vf = f·n met f in mm/omw en n in omw/min.",
+      "tag": "verspanen"
+    },
+    {
+      "id": "constructie-51",
+      "category": "constructie",
+      "title": "Bewerkingstijd",
+      "summary": "Voor een rechte voeding: t = L/vf. Inloop, uitloop en neventijden apart meenemen.",
+      "tag": "verspanen"
+    },
+    {
+      "id": "constructie-52",
+      "category": "constructie",
+      "title": "Draaien",
+      "summary": "Bij draaien roteert het werkstuk en verwijdert een snijgereedschap materiaal.",
+      "tag": "verspanen"
+    },
+    {
+      "id": "constructie-53",
+      "category": "constructie",
+      "title": "Frezen",
+      "summary": "Bij frezen roteert het snijgereedschap; voeding en aantal tanden bepalen de tandbelasting.",
+      "tag": "verspanen"
+    },
+    {
+      "id": "constructie-54",
+      "category": "constructie",
+      "title": "Boren en ruimen",
+      "summary": "Boren maakt een gat; ruimen kan een voorbewerkt gat nauwkeuriger afwerken.",
+      "tag": "verspanen"
+    },
+    {
+      "id": "constructie-55",
+      "category": "constructie",
+      "title": "Plaatbuigen",
+      "summary": "Buigstraal, materiaaldikte en terugvering beïnvloeden de uiteindelijke geometrie.",
+      "tag": "vormgeven"
+    },
+    {
+      "id": "constructie-56",
+      "category": "constructie",
+      "title": "Lassen",
+      "summary": "Proceskeuze en lasparameters hangen af van materiaal, verbinding, positie en kwaliteitseisen.",
+      "tag": "lassen"
+    },
+    {
+      "id": "constructie-57",
+      "category": "constructie",
+      "title": "Thermisch snijden",
+      "summary": "Bij plasma-, laser- en autogeen snijden verschillen warmte-inbreng, materiaaleisen en snijkwaliteit.",
+      "tag": "snijden"
+    },
+    {
+      "id": "constructie-58",
+      "category": "constructie",
+      "title": "CNC-basis",
+      "summary": "G-code stuurt veel CNC-machines aan; specifieke betekenis en veiligheid hangen van de besturing af.",
+      "tag": "cnc"
+    },
+    {
+      "id": "constructie-59",
+      "category": "constructie",
+      "title": "Meten en controleren",
+      "summary": "Kalibratie, meetonzekerheid en temperatuur zijn essentieel bij nauwkeurige maatcontrole.",
+      "tag": "kwaliteit"
+    },
+    {
+      "id": "sturing-60",
+      "category": "sturing",
+      "title": "Hydraulische cilinderkracht",
+      "summary": "Ideaal bij uitgaande slag: F = p·πD²/4. Bij ingaande slag is het effectieve oppervlak kleiner door de stang.",
+      "tag": "hydrauliek"
+    },
+    {
+      "id": "sturing-61",
+      "category": "sturing",
+      "title": "Pneumatische cilinders",
+      "summary": "Pneumatische cilinders gebruiken samendrukbare lucht; werkelijke kracht hangt af van druk en verliezen.",
+      "tag": "pneumatiek"
+    },
+    {
+      "id": "sturing-62",
+      "category": "sturing",
+      "title": "Debiet en snelheid",
+      "summary": "Cilindersnelheid v = Q/A voor een gegeven volumestroom en effectief zuigeroppervlak.",
+      "tag": "fluïdum"
+    },
+    {
+      "id": "sturing-63",
+      "category": "sturing",
+      "title": "Drukregelventielen",
+      "summary": "Drukbegrenzing beschermt tegen overschrijding van de ingestelde druk; uitvoering en toepassing zijn bepalend.",
+      "tag": "hydrauliek"
+    },
+    {
+      "id": "sturing-64",
+      "category": "sturing",
+      "title": "Richtingsventielen",
+      "summary": "Een 5/2-ventiel heeft vijf poorten en twee schakelstanden; veel gebruikt bij dubbelwerkende pneumatische cilinders.",
+      "tag": "pneumatiek"
+    },
+    {
+      "id": "sturing-65",
+      "category": "sturing",
+      "title": "Elektrische relais",
+      "summary": "Een relais schakelt contacten met behulp van een bedieningsspoel; contacttoestand wordt doorgaans in rust getekend.",
+      "tag": "elektriciteit"
+    },
+    {
+      "id": "sturing-66",
+      "category": "sturing",
+      "title": "Sensoren",
+      "summary": "Digitale sensoren geven vaak een schakelsignaal; analoge sensoren geven een variabele meetwaarde.",
+      "tag": "sensoren"
+    },
+    {
+      "id": "sturing-67",
+      "category": "sturing",
+      "title": "PLC-ingangen en uitgangen",
+      "summary": "Een PLC leest ingangen, voert logica uit en stuurt uitgangen aan volgens het programma en de cyclus.",
+      "tag": "plc"
+    },
+    {
+      "id": "sturing-68",
+      "category": "sturing",
+      "title": "GRAFCET",
+      "summary": "GRAFCET beschrijft opeenvolgende stappen, acties en overgangsvoorwaarden van een besturing.",
+      "tag": "plc"
+    },
+    {
+      "id": "sturing-69",
+      "category": "sturing",
+      "title": "Booleaanse logica",
+      "summary": "EN is waar als beide voorwaarden waar zijn; OF als minstens één waar is; NIET keert de toestand om.",
+      "tag": "logica"
+    },
+    {
+      "id": "sturing-70",
+      "category": "sturing",
+      "title": "PID-regeling",
+      "summary": "P reageert op de actuele fout, I op de opgetelde fout en D op de verandering van de fout.",
+      "tag": "regeltechniek"
+    },
+    {
+      "id": "sturing-71",
+      "category": "sturing",
+      "title": "Regelkring",
+      "summary": "Een gesloten regelkring vergelijkt gewenste en gemeten waarde en corrigeert de stuurwaarde.",
+      "tag": "regeltechniek"
+    }
+  ]
+}
